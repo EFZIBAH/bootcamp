@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section{
+  background-image: url(../images/pattern-curve.svg);
+  background-repeat: no-repeat;
+  background-position-y: 500px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.house{
+  width: 900px;
+  
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+main{
+  position: relative;
+}
+main img:first-child{
+  /* background-color: purple; */
+}
+main .first{
+  width: 90%;
+}
+
+main .second{
+  position: absolute;
+  left: 43px;
+  top: 30px;
+  width: 70%;
+  box-shadow: 20px 40px 30px rgba(80, 79, 79, 0.747);
+}
+main img{
+  width: 100%;
+}
+aside{
+  /* background-color: blue; */
+  position: relative;
+  z-index: 2;
+  
+}
+
+aside img{
+  position: absolute;
+  z-index: 1;
+
+}
+aside img{
+  left: 70px ;
+  top: -50px;
+  z-index: 2;
+}
+.arrow img{
+  width: 100%;
+
+  padding: 0 15px;
+}
+.arrow{
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  left: 40px;
+  bottom: -15px;
+}
